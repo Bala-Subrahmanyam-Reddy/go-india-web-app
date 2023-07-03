@@ -10,7 +10,7 @@
     height: inherit; */
     position: absolute;
     left: 0%;
-    top: 0%; 
+    top: 0%;
     display: flex;
     gap: 2rem;
     justify-content: space-between;
@@ -25,6 +25,7 @@
     margin-left: 10%;
     animation: secondary 20s linear infinite;
 }
+
 @keyframes primary {
     from {
         left: 0%;
@@ -45,4 +46,9 @@
     }
 }
 
- 
+
+@media screen and (max-width:1110px) {
+    .scroll-parent {
+        max-width: 90vw;
+    }
+}
